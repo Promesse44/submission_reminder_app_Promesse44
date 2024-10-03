@@ -2,7 +2,7 @@
 
 # Start reminder script if it exists
 if [ -f "./app/reminder.sh" ]; then
-    echo "Starting the reminder script..."
+    echo "Running the reminder..."
     bash ./app/reminder.sh
 else
     echo "Reminder script not found. Exiting."
